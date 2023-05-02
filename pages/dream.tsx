@@ -293,22 +293,6 @@ const Home: NextPage = () => {
                       />
                       <span>Sign in with Google</span>
                     </button>
-                    <button
-                      onClick={() =>
-                        signIn("email", {
-                          email: "virenderkumar23435@gmail.com",
-                        })
-                      }
-                      className="bg-gray-200 text-black font-semibold py-3 px-6 rounded-2xl flex items-center space-x-2"
-                    >
-                      {/* <Image
-                        src="/google.png"
-                        width={20}
-                        height={20}
-                        alt="google's logo"
-                      /> */}
-                      <span>Sign in with Email</span>
-                    </button>
                   </div>
                 )
               )}
